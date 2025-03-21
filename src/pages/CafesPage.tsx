@@ -59,7 +59,7 @@ const CafesPage: React.FC = () => {
         <Button
           size="small"
           variant="text"
-          onClick={() => navigate(`/employee?cafeId=${params.data.id}`)}
+          onClick={() => navigate(`/Employees?cafeId=${params.data.id}`)}
         >
           {params.value || 0} Employees
         </Button>

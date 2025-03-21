@@ -7,7 +7,8 @@ export type  Cafe ={
   location: string;
   employeeCount: number;
 }
-export interface Employee {
+export type Employee = {
+  emailAddress: string;
   id: string;
   name: string;
   email: string;
@@ -19,18 +20,18 @@ export interface Employee {
   daysWorked?: number;
 }
 
-export interface CafeFormData {
+export type CafeFormData = {
   name: string;
   description: string;
   location: string;
   logo?: File;
 }
 
-export interface EmployeeFormData {
+export type EmployeeFormData = {
   name: string;
-  email: string;
+  emailAddress: string;
   phoneNumber: string;
-  gender: "male" | "female";
+  gender: "male" | "female" | "Male" | "Female";
   cafeId: string;
 }
 
