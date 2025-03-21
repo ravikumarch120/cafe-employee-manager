@@ -30,7 +30,6 @@ A modern web application for managing café information, built with React and .N
 
 ## Prerequisites
 
-- Node.js (v16 or higher)
 - .NET Core SDK 7.0
 - SQL Server
 - Visual Studio 2022 or VS Code
@@ -123,7 +122,7 @@ The application will be available at `http://localhost:3000`
 ### Café
 
 ```typescript
-interface Cafe {
+type Cafe = {
   id: string;
   name: string;
   description: string;
@@ -140,12 +139,7 @@ interface Cafe {
 - Logo: Optional
 
 ## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+NA
 
 ## License
 
