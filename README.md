@@ -36,59 +36,36 @@ A modern web application for managing café information, built with React and .N
 
 ## Getting Started
 
-### Backend Setup
-
-1. Clone the repository
-
-```bash
-git clone [repository-url]
-```
-
-2. Navigate to the backend directory
-
-```bash
-cd CafeManagement/Backend
-```
-
-3. Update database connection string in `appsettings.json`
-
-4. Run migrations
-
-```bash
-dotnet ef database update
-```
-
-5. Start the backend server
-
-```bash
-dotnet run
-```
 
 The API will be available at `[https://localhost:44357/index.html]`
+### BackEnd Results
+Swagger View End Points .
+
+![image](https://github.com/user-attachments/assets/354fe223-f31a-433d-be98-58fb26fdb656)
+
 
 ### Frontend Setup
+Proof of UI Visibility
+Employee application will be available at (http://localhost:5173/employees)
+Employee DashBaord
+![image](https://github.com/user-attachments/assets/0df0069c-7d84-4d11-86c3-9b5a71ea8afe)
 
-1. Navigate to the frontend directory
+Add New Employee
+![image](https://github.com/user-attachments/assets/5ef399e5-90c1-4870-a9d4-4c3162aebdc6)
 
-```bash
-cd CafeManagement/Frontend
-```
+Delete Employee 
+![image](https://github.com/user-attachments/assets/6c995350-fbc1-47b0-80d2-86834ca72134)
 
-2. Install dependencies
+Cafe application will be available at ([http://localhost:5173/cafes])
+Cafe Dashboard
+![image](https://github.com/user-attachments/assets/4e6f6ed6-32da-4f29-94fa-e7cd2d03fb1c)
+Edit Cafe :
+![image](https://github.com/user-attachments/assets/64df11aa-ce75-4825-8f1f-02a39d472284)
+Delete Cafe:
+![image](https://github.com/user-attachments/assets/d83cf286-a3ea-4c3b-81cd-5706a0bff62b)
+Add New Cafe :
+![image](https://github.com/user-attachments/assets/4cb6376d-98a7-43f1-9964-f400d7a8441c)
 
-```bash
-npm install
-```
-
-3. Update the API base URL in the configuration if needed
-
-4. Start the development server
-
-```bash
-npm start
-```
-
-The application will be available at `http://localhost:3000`
 
 ## Project Structure
 
@@ -119,24 +96,7 @@ The application will be available at `http://localhost:3000`
 
 ## Data Models
 
-### Café
 
-```typescript
-type Cafe = {
-  id: string;
-  name: string;
-  description: string;
-  location: string;
-  logo: string;
-}
-```
-
-## Form Validation Rules
-
-- Name: 6-10 characters
-- Description: Maximum 256 characters
-- Location: Required
-- Logo: Optional
 
 ## Contributing
 NA
