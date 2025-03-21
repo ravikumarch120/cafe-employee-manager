@@ -64,7 +64,7 @@ dotnet ef database update
 dotnet run
 ```
 
-The API will be available at `http://localhost:5135`
+The API will be available at `[https://localhost:44357/index.html]`
 
 ### Frontend Setup
 
